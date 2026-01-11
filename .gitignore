@@ -1,0 +1,184 @@
+# .gitignore pour projet Puppeteer/Node.js
+
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+
+# Environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Données générées
+data/*.json
+data/*.csv
+data/*.xlsx
+!data/.gitkeep
+output/
+exports/
+
+# Captures d'écran et fichiers multimédias
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.desktop.ini
+*~
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-*
+.cache/
+.tern-port
+
+# Puppeteer spécifique
+.local-chromium/
+.local-browser/
+.cache/puppeteer/
+
+# Fichiers de configuration utilisateur
+*.user
+*.suo
+
+# Fichiers temporaires
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Build outputs
+dist/
+build/
+.out/
+.cache/
+
+# Dépendances système (si présentes)
+chromium/
+.chromium/
+
+# Fichiers de lock alternatifs
+package-lock.json
+yarn.lock
+shrinkwrap.yaml
+
+# Fichiers de session
+*.session
+
+# Fichiers de debug
+debug.log
+debug/
+
+# Fichiers de test
+__pycache__/
+*.pyc
+
+# Fichiers de configuration locale
+config/local.json
+config/development.json
+
+# Backup files
+*.bak
+*.backup
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+
+# Documentation générée
+docs/_build/
+docs/_site/
+
+# Fichiers de métriques
+*.prof
+*.profile
+
+# Fichiers de heap dump
+*.heapsnapshot
+
+# Fichiers de flamegraph
+*.cpuprofile
+*.heapprofile
+
+# Fichiers de tracing
+*.trace
+
+# Fichiers de coverage
+.nyc_output/
+
+# Sécurité
+*.pem
+*.key
+*.crt
+*.cer
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Certificats SSL
+ssl/
+
+# Paquets
+*.tgz
+
+# Fichiers de session PM2
+.pm2/
+
+# TypeScript
+*.tsbuildinfo
+
+# Fichiers générés par les tests
+test-results/
+playwright-report/
+test-results/
+
+# Fichiers de cache
+.eslintcache
+.stylelintcache
+
+# Fichiers de journalisation personnalisée
+*.log.*
+
+# Fichiers de déploiement
+.deploy/
